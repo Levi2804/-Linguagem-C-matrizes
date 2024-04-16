@@ -8,7 +8,7 @@ int main(){
 	printf("Preenchimento da Matriz A\n");
 	for(l = 0; l < 4; l++){
 		for(c = 0; c < 2; c++){
-			printf("%iº número: ", i++);
+			printf("%iÂº nÃºmero: ", i++);
 			scanf("%f", &A[l][c]);
 		}
 	}
