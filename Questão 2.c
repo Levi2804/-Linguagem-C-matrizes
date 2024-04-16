@@ -7,7 +7,7 @@ int main(){
 	printf("Preenchimento da matriz A\n");
 	for(l = 0; l < 2; l++){
 		for(c = 0; c < 3; c++){
-			printf("Digite o %iº valor: ", i++);
+			printf("Digite o %iÂº valor: ", i++);
 			scanf("%i", &A[l][c]);
 		}
 	}
@@ -16,7 +16,7 @@ int main(){
 	i = 1;
 	for(l = 0; l < 2; l++){
 		for(c = 0; c < 3; c++){
-			printf("Digite o %iº valor: ", i++);
+			printf("Digite o %iÂº valor: ", i++);
 			scanf("%i", &B[l][c]);
 		}
 	}
